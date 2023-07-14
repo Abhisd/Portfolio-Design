@@ -13,13 +13,13 @@
            <nav class="flex item-center justify-between">
                <div class="left flex justify-right">
                    <div class="logo">
-                       <img src="./assets/scaler-academy logo 2.png" width="50" height="50" alt="Scaler Logo">
+                       <img src="./assets/icons8-a-100.png" width="50" height="50" alt="Scaler Logo">
                    </div>
                    <div>
                        <a href="#header">Home</a>
                        <a href="#about-me">About</a>
                        <a href="#project">Projects</a>
-                       <a href="#contact">Contact Us</a>
+                       <a href="#contact">Contact Me</a>
                    </div>
                </div>
            </nav>
@@ -27,12 +27,12 @@
 
         <div class="hero flex item-center justify-between">
             <div class="left justify-center">
-                <img src="./assets/IMG_20211016_181755__01.jpg" alt="Profile Photo">
+                <img src="./assets/Abhishek.jpg" alt="Profile Photo">
             </div>
             <div class="right">
                 <h2>Abhishek Dawange</h2>
                 <h1>I'm a Fullstack <br> <span>Developer</span> </h1>
-                <p>Description</p>
+               
                 <div>
                     <button class="btn">Download Resume</button>
                 </div>
@@ -53,7 +53,7 @@
             <div class="right">
                 <h1>About <span>Me</span></h1>
                 <h3>Hello! I am Abhishek Dawange </h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque adipisci distinctio obcaecati aliquid, quia tempora quis optio repudiandae officia earum? Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                <p>Dynamic and skilled Software developer with experience of 2.5 years in designing and building web applications. Quick learner with good communication skills.</p>
                 <div class="socials flex">
                     <a href="https://www.linkedin.com/in/abhishek-dawange-62b3b7170/" target="_blank"> <img src="./assets/linkedIn.png" width="40" alt="" > </a>
                     <a href="https://leetcode.com/dawange/" target="_blank"><img src="./assets/leet logo.png" width="40" alt=""></a>
@@ -66,25 +66,45 @@
 
     <section id="project" class="services">
         <div class="container">
-            <h1 class="services-head">My Projects</h1>
-            <p>I mostly work with HTML ,CSS ,JavaScript , React and Node</p>
+            <h1 class="services-head">Work Experiance</h1>
+            <p>Associate @ Cognizant</p>
+            
             <div >
                 <div class="card-grid">
-                    <div class="card">
+                    <!-- <div class="card">
                         <img src="./assets/calculator png.png" width="40" alt="calculator image">
                         <h2>Calculator</h2>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla, debitis?</p>
+                    </div> -->
+                     <div class="card">
+                        <img src="./assets/icons8-property-insurance-64.png" width="40" alt="cart image">
+                        <h2>Massachusetts Property Insurance and Underwriting Association & RIJRA</h2>
+                        <ul class="myList">
+                            <li>Resolved bugs occurred on Production Environment.
+                            </li>
+                            <li>Improved performance of some functionalities by updating logic and changing values of the attributes in Registries.                           
+                            </li>
+                            <li>Increased code quality by refactoring and adding adequate exception handling.                            
+                            </li>
+                            <li>Made changes to the existing logic in order to add new features to existing functionalities.           
+                            </li>
+                            <li>Unit testing for Repositories, Services and Controllers that improved code coverage.                            
+                            </li>
+                            <li>Made changes to the front-end of the web application to improve its responsiveness.                            
+                            </li>
+                            <li>Design and Development of UI components.                            
+                            </li>
+                            <li>Collaborated with team members and project manager to create new test cases and to discuss improvements to existing
+                                functionalities for a better user experience.                            
+                            </li>
+
+                        </ul>
                     </div>
-                    <div class="card">
-                        <img src="./assets/cart png.png" width="40" alt="cart image">
-                        <h2>Cart</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla, debitis?</p>
-                    </div>
-                    <div class="card">
+                   <!-- <div class="card">
                         <h2>Todo List</h2>
                         <img src="./assets/to do list.png" width="40" alt="todo Icon">
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -92,7 +112,7 @@
 
     <section id="contact" class="contact-form">
         <h2>Get in Touch</h2>
-        <form class="contact-headng" id="contact">
+        <form action="mailto: abhishek.dawange@gmail.com" class="contact-headng" id="contact">
         <label>
             <span>Name</span>
             <input class="form_input" type="text" placeholder="Name">
@@ -108,6 +128,13 @@
         <input class="form_input submit_button" type="submit" value="Send">
         </form>
     </section>
+
+    <script>
+        let btn=document.querySelector(".btn");
+        btn.addEventListener("click",function(){
+            window.open("./assets/Abhishek's Resume_Updated_July23.pdf")
+        });
+    </script>
 </body>
 
 </html>
