@@ -219,7 +219,6 @@ label>span{
     height: 50px;
     width: 100px;
     background-color:var(--primary);
-    /* display: flex; */
     margin-left: 65rem;
     border-radius: 1rem;
     margin-top: 1rem;
@@ -251,14 +250,12 @@ footer{
     padding: 5rem;
     background-color: var(--footerBg);
 }
-
 footer h4{
     color: var(--white);
     font-weight: 400;
     font-size: 1.25rem;
     line-height: 2.5;
 }
-
 footer .first p{
     color: var(--white);
 }
@@ -270,7 +267,6 @@ footer a{
     text-decoration: none;
     line-height: 1.25;
 }
-
 footer>div{
     display: flex;
     flex-direction: column;
@@ -287,7 +283,6 @@ footer .first .footerLogo{
     border-radius: 50px;
     margin-left: 1rem;
 }
-
 footer .first div div{
     display: inline-block;
     margin-right:5px ;
